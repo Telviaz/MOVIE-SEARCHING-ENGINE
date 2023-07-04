@@ -1,0 +1,62 @@
+/* Custom CSS styles */
+
+/* Navbar */
+.nav-link {
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: #333;
+}
+
+/* Search Section */
+#search-input {
+  animation: slide-in-left 0.5s ease;
+}
+
+@keyframes slide-in-left {
+  0% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Movie Cards */
+.movie-card {
+  transition: box-shadow 0.3s ease;
+}
+
+.movie-card:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Load More Button */
+#load-more-btn {
+  animation: slide-in-bottom 0.5s ease;
+}
+
+@keyframes slide-in-bottom {
+  0% {
+    transform: translateY(200px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Footer */
+.footer-link {
+  color: #fff;
+  transition: opacity 0.3s ease;
+}
+
+.footer-link:hover {
+  opacity: 0.7;
+}

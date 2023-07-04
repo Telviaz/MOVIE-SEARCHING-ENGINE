@@ -1,0 +1,7 @@
+Make sure to replace YOUR_API_KEY in the script.js file with your actual OMDB API key.
+
+Please note that you'll need to have an active internet connection for the OMDB API requests to work properly.
+
+CREATED BY: 💻TELVIN TEUM💻
+FROM:KENYA💯💻
+CODDING IS LIFE
